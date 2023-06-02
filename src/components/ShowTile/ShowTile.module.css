@@ -1,0 +1,59 @@
+.tile {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.tile :hover {
+    opacity: 0.8;
+}
+
+.image {
+    box-shadow: 2px 2px 1px 1px;
+}
+
+.details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
+    background-color: brown;
+    padding: 0.1rem;
+    margin-right: 0.5rem;
+}
+
+.basic__data {
+    display: flex;
+    padding: 0;
+}
+
+.basic__data li {
+    margin: 1rem;
+}
+
+.status {
+    background-color: #1d1dd6;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .tile {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2.5rem;
+    }
+
+    .details {
+        padding: 1rem;
+    }
+
+    .basic__data {
+        font-size: 0.7rem;
+    }
+
+    .basic__data li {
+        margin: 0.7rem;
+    }
+}

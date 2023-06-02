@@ -1,0 +1,32 @@
+.show__book {
+    padding: 1rem;
+}
+
+.summary ul {
+    display: flex;
+    padding: 0;
+}
+
+.summary li {
+    margin: 1rem;
+}
+
+.poster {
+    width: 40%;
+}
+
+@media (max-width:768px) {
+    .poster {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .summary ul {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .summary li {
+        margin: 0;
+    }
+}
