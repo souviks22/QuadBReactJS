@@ -8,9 +8,7 @@ const Shows = () => {
     return (
         <div className={`container ${styles.movies}`}>
             {movies.map(movie =>
-                <Link to={`/${movie.show.id}`} key={movie.show.id}>
-                    <ShowTile details={movie} />
-                </Link>)
+                <Link to={`/${movie.show.id}`} key={movie.show.id}><ShowTile details={movie} /></Link>)
             }
         </div>
     )
